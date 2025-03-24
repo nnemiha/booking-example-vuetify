@@ -1,0 +1,21 @@
+{
+  "name": "booking-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "sass": "^1.85.1",
+    "vue": "^3.0.0",
+    "vuetify": "^3.7.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^4.0.0",
+    "vite-plugin-vuetify": "^1.0.2"
+  }
+}
