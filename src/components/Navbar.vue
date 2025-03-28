@@ -1,12 +1,14 @@
 <template>
-  <v-app-bar app dense dark color="black" fixed>
-    <v-toolbar-title>Apartic</v-toolbar-title>
-    <v-spacer></v-spacer>
-    <v-btn text to="/">Главная</v-btn>
-    <v-btn text to="/booking">Забронировать</v-btn>
-    <v-btn text to="/contacts">Контакты</v-btn>
-    <v-spacer></v-spacer>
-    <div>+7 (906) 211-30-21</div>
+  <v-app-bar app height="100" dark color="black" fixed>
+    <v-container class="d-flex align-center">
+      <v-toolbar-title class="text-h4">Apartic</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <div class="d-flex align-center">
+        <v-btn text to="/" class="text-h6 mx-2">Главная</v-btn>
+        <v-btn text to="/about" class="text-h6 mx-2">О нас</v-btn>
+        <v-btn text to="/contacts" class="text-h6 mx-2">Контакты</v-btn>
+      </div>
+    </v-container>
   </v-app-bar>
 </template>
 
@@ -15,5 +17,3 @@ export default {
   name: "Navbar",
 };
 </script>
-
-
